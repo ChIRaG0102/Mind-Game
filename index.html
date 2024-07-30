@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="page1">
+            <header>
+                <h1>MIND GAME</h1>
+            </header>   
+            <main>
+                <div class="left">
+                    <div class="profile">
+                        <img src="./img/chirag.png" alt="">
+                    </div>
+                    <div class="timer">
+                        <h1><span id="min">1</span>:<span id="sec">60</span></h1>
+                    </div>
+                    <div class="moves">
+                        Moves: 
+                        <div class="ball">
+                            <h1 id="movesCounter">00</h1>
+                        </div>
+                    </div>
+                    <div class="pair">
+                        Pairs:
+                        <div class="ball">
+                            <h1 id="pairsCounter">00</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="one">
+                        <h1>WELCOME TO MIND GAME</h1>
+                    </div>
+                    <div class="two">
+                        <h1>Match all the pairs before time runs out</h1>
+                    </div>
+                    <div class="three">
+                        <div class="box">
+                            <img src="./img/india cricket.jpeg" alt="">
+                            <h2>Cricket</h2>
+                        </div>
+                        <div class="box">
+                            <img src="./img/cars" alt="">
+                            <h2>Cars</h2>
+                        </div>
+                        <div class="box">
+                            <img src="./img/games.jpeg" alt="">
+                            <h2>Games</h2>
+                        </div>
+                        <div class="box">
+                            <img src="./img/animals.jpeg" alt="">
+                            <h2>Animals</h2>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <section id="section">
+                            
+                           <!-- Fetch Cards Using JS  -->
+
+                        </section>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="first">
+                        <div class="red">
+                            <img src="./img/red.jpeg" alt="">
+                        </div>
+                        <div class="green">
+                            <img src="./img/light green" alt="">
+                        </div>
+                        <div class="blue">
+                            <img src="./img/blue.jpeg" alt="">
+                        </div>
+                        <div class="yellow">
+                            <img src="./img/yellow" alt="">
+                        </div>
+                    </div>
+                    <div class="second">
+                        <h2>Cricket</h2>
+                    </div>
+                    <div class="third">
+                        <button class="start">START</button>
+                    </div>
+                </div>
+            </main>
+            <div class="msg">
+                <div class="win">
+                    <div class="wrap"><h2>YOU WIN</h2></div>
+                </div>
+                <div class="loss">
+                    <div class="wrap"><h2>YOU LOSS</h2></div>
+                </div>
+            </div>
+            <footer>
+                <h2>Develop by Chirag</h2>
+            </footer>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="js/script.js"></script>
+</html>
